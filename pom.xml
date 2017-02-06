@@ -75,6 +75,7 @@
     <module>jooby-unbescape</module>
     <module>jooby-crash</module>
     <module>jooby-thymeleaf</module>
+    <module>jooby-filewatcher</module>
     <!-- Assets -->
     <module>jooby-assets</module>
     <module>jooby-assets-j2v8</module>
@@ -585,6 +586,12 @@
       <dependency>
         <groupId>org.jooby</groupId>
         <artifactId>jooby-thymeleaf</artifactId>
+        <version>${jooby.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jooby</groupId>
+        <artifactId>jooby-filewatcher</artifactId>
         <version>${jooby.version}</version>
       </dependency>
 
