@@ -1,0 +1,329 @@
+digraph "jooby-project" {
+  node [shape="box",style="rounded",fontname="Helvetica",fontsize="14"]
+  edge [fontsize="10",fontname="Helvetica"]
+
+  // Node Definitions:
+  "org.jooby:jooby-spec:jar::compile"[label=<jooby-spec>]
+  "org.jooby:jooby:jar::compile"[label=<jooby>]
+  "org.jooby:jooby:jar:tests:test"[label=<jooby<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-executor:jar::compile"[label=<jooby-executor>]
+  "org.jooby:jooby-jackson:jar::compile"[label=<jooby-jackson>]
+  "org.jooby:jooby-gson:jar::compile"[label=<jooby-gson>]
+  "org.jooby:jooby-hbs:jar::compile"[label=<jooby-hbs>]
+  "org.jooby:jooby-ftl:jar::compile"[label=<jooby-ftl>]
+  "org.jooby:jooby-pebble:jar::compile"[label=<jooby-pebble>]
+  "org.jooby:jooby-jade:jar::compile"[label=<jooby-jade>]
+  "org.jooby:jooby-caffeine:jar::compile"[label=<jooby-caffeine>]
+  "org.jooby:jooby-guava-cache:jar::compile"[label=<jooby-guava-cache>]
+  "org.jooby:jooby-jdbc:jar::compile"[label=<jooby-jdbc>]
+  "org.jooby:jooby-jooq:jar::compile"[label=<jooby-jooq>]
+  "org.jooby:jooby-hbm:jar::compile"[label=<jooby-hbm>]
+  "org.jooby:jooby-netty:jar::test"[label=<jooby-netty<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-jackson:jar::test"[label=<jooby-jackson<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-hbm4:jar::compile"[label=<jooby-hbm4>]
+  "org.jooby:jooby-undertow:jar::compile"[label=<jooby-undertow>]
+  "org.jooby:jooby-servlet:jar::compile"[label=<jooby-servlet>]
+  "org.jooby:jooby-jetty:jar::compile"[label=<jooby-jetty>]
+  "org.jooby:jooby-netty:jar::compile"[label=<jooby-netty>]
+  "org.jooby:jooby-quartz:jar::compile"[label=<jooby-quartz>]
+  "org.jooby:jooby-jdbi:jar::compile"[label=<jooby-jdbi>]
+  "org.jooby:jooby-jedis:jar::compile"[label=<jooby-jedis>]
+  "org.jooby:jooby-mongodb:jar::compile"[label=<jooby-mongodb>]
+  "org.jooby:jooby-mongodb-rx:jar::compile"[label=<jooby-mongodb-rx>]
+  "org.jooby:jooby-rxjava:jar::compile"[label=<jooby-rxjava>]
+  "org.jooby:jooby-morphia:jar::compile"[label=<jooby-morphia>]
+  "org.jooby:jooby-camel:jar::compile"[label=<jooby-camel>]
+  "org.jooby:jooby-elasticsearch:jar::compile"[label=<jooby-elasticsearch>]
+  "org.jooby:jooby-hbv:jar::compile"[label=<jooby-hbv>]
+  "org.jooby:jooby-maven-plugin:maven-plugin::compile"[label=<jooby-maven-plugin>]
+  "org.jooby:jooby-assets:jar::compile"[label=<jooby-assets>]
+  "org.jooby:jooby-run:jar::compile"[label=<jooby-run>]
+  "org.jooby:jooby-ehcache:jar::compile"[label=<jooby-ehcache>]
+  "org.jooby:jooby-pac4j:jar::compile"[label=<jooby-pac4j>]
+  "org.jooby:jooby-swagger:jar::compile"[label=<jooby-swagger>]
+  "org.jooby:jooby-raml:jar::compile"[label=<jooby-raml>]
+  "org.jooby:jooby-spymemcached:jar::compile"[label=<jooby-spymemcached>]
+  "org.jooby:jooby-aws:jar::compile"[label=<jooby-aws>]
+  "org.jooby:jooby-commons-email:jar::compile"[label=<jooby-commons-email>]
+  "org.jooby:jooby-jongo:jar::compile"[label=<jooby-jongo>]
+  "org.jooby:jooby-flyway:jar::compile"[label=<jooby-flyway>]
+  "org.jooby:jooby-hazelcast:jar::compile"[label=<jooby-hazelcast>]
+  "org.jooby:jooby-ebean:jar::compile"[label=<jooby-ebean>]
+  "org.jooby:jooby-akka:jar::compile"[label=<jooby-akka>]
+  "org.jooby:jooby-metrics:jar::compile"[label=<jooby-metrics>]
+  "org.jooby:jooby-querydsl:jar::compile"[label=<jooby-querydsl>]
+  "org.jooby:jooby-sitemap:jar::compile"[label=<jooby-sitemap>]
+  "org.jooby:jooby-rxjava-jdbc:jar::compile"[label=<jooby-rxjava-jdbc>]
+  "org.jooby:jooby-banner:jar::compile"[label=<jooby-banner>]
+  "org.jooby:jooby-reactor:jar::compile"[label=<jooby-reactor>]
+  "org.jooby:jooby-whoops:jar::compile"[label=<jooby-whoops>]
+  "org.jooby:jooby-gradle-plugin:jar::compile"[label=<jooby-gradle-plugin>]
+  "org.jooby:jooby-couchbase:jar::compile"[label=<jooby-couchbase>]
+  "org.jooby:jooby-rxjava:jar::test"[label=<jooby-rxjava<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-executor:jar::test"[label=<jooby-executor<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-cassandra:jar::compile"[label=<jooby-cassandra>]
+  "org.jooby:jooby-scanner:jar::compile"[label=<jooby-scanner>]
+  "org.jooby:jooby-csl:jar::compile"[label=<jooby-csl>]
+  "org.jooby:jooby-unbescape:jar::compile"[label=<jooby-unbescape>]
+  "org.jooby:jooby-crash:jar::compile"[label=<jooby-crash>]
+  "org.jooby:jooby-banner:jar::test"[label=<jooby-banner<font point-size="10"><br/>(test)</font>>]
+  "org.jooby:jooby-thymeleaf:jar::compile"[label=<jooby-thymeleaf>]
+  "org.jooby:jooby-assets-j2v8:jar::compile"[label=<jooby-assets-j2v8>]
+  "org.jooby:jooby-assets-nodejs:jar::compile"[label=<jooby-assets-nodejs>]
+  "org.jooby:jooby-assets-jshint:jar::compile"[label=<jooby-assets-jshint>]
+  "org.jooby:jooby-assets-jscs:jar::compile"[label=<jooby-assets-jscs>]
+  "org.jooby:jooby-assets-less:jar::compile"[label=<jooby-assets-less>]
+  "org.jooby:jooby-assets-less4j:jar::compile"[label=<jooby-assets-less4j>]
+  "org.jooby:jooby-assets-csslint:jar::compile"[label=<jooby-assets-csslint>]
+  "org.jooby:jooby-assets-ng-annotate:jar::compile"[label=<jooby-assets-ng-annotate>]
+  "org.jooby:jooby-assets-uglify:jar::compile"[label=<jooby-assets-uglify>]
+  "org.jooby:jooby-assets-clean-css:jar::compile"[label=<jooby-assets-clean-css>]
+  "org.jooby:jooby-assets-yui-compressor:jar::compile"[label=<jooby-assets-yui-compressor>]
+  "org.jooby:jooby-assets-closure-compiler:jar::compile"[label=<jooby-assets-closure-compiler>]
+  "org.jooby:jooby-assets-sass:jar::compile"[label=<jooby-assets-sass>]
+  "org.jooby:jooby-assets-requirejs:jar::compile"[label=<jooby-assets-requirejs>]
+  "org.jooby:jooby-assets-babel:jar::compile"[label=<jooby-assets-babel>]
+  "org.jooby:jooby-assets-rollup:jar::compile"[label=<jooby-assets-rollup>]
+  "org.jooby:jooby-assets-svg-sprites:jar::compile"[label=<jooby-assets-svg-sprites>]
+  "org.jooby:jooby-assets-svg-symbol:jar::compile"[label=<jooby-assets-svg-symbol>]
+  "org.jooby:jooby-assets-autoprefixer:jar::compile"[label=<jooby-assets-autoprefixer>]
+  "org.jooby:coverage-report:jar::compile"[label=<coverage-report>]
+
+  // Edge Definitions:
+  "org.jooby:jooby-spec:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-spec:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-executor:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-executor:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jackson:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-jackson:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-gson:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-gson:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hbs:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-hbs:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-ftl:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-ftl:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-pebble:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-pebble:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jade:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-jade:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-caffeine:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-caffeine:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-guava-cache:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-guava-cache:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jdbc:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-jdbc:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jooq:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-jooq:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hbm:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-hbm:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hbm:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-hbm:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-hbm4:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-hbm4:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-undertow:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-undertow:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-servlet:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-servlet:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jetty:jar::compile" -> "org.jooby:jooby-servlet:jar::compile"
+  "org.jooby:jooby-jetty:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-netty:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-netty:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-quartz:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-quartz:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jdbi:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-jdbi:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jedis:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-jedis:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-mongodb:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-mongodb:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-mongodb:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-mongodb:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-mongodb-rx:jar::compile" -> "org.jooby:jooby-rxjava:jar::compile"
+  "org.jooby:jooby-rxjava:jar::compile" -> "org.jooby:jooby-executor:jar::compile"
+  "org.jooby:jooby-mongodb-rx:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-mongodb-rx:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-netty:jar::test" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-mongodb-rx:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-morphia:jar::compile" -> "org.jooby:jooby-mongodb:jar::compile"
+  "org.jooby:jooby-morphia:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-morphia:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-morphia:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-camel:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-camel:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-elasticsearch:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-elasticsearch:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hbv:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-hbv:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-maven-plugin:maven-plugin::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-maven-plugin:maven-plugin::compile" -> "org.jooby:jooby-spec:jar::compile"
+  "org.jooby:jooby-maven-plugin:maven-plugin::compile" -> "org.jooby:jooby-run:jar::compile"
+  "org.jooby:jooby-ehcache:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-ehcache:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-pac4j:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-pac4j:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-swagger:jar::compile" -> "org.jooby:jooby-spec:jar::compile"
+  "org.jooby:jooby-swagger:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-swagger:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-raml:jar::compile" -> "org.jooby:jooby-spec:jar::compile"
+  "org.jooby:jooby-raml:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-spymemcached:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-spymemcached:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-aws:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-aws:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-commons-email:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-commons-email:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-jongo:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-jongo:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-flyway:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-flyway:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hazelcast:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-hazelcast:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-hazelcast:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-ebean:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-ebean:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-akka:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-akka:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-metrics:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-metrics:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-metrics:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-metrics:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-querydsl:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-querydsl:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-sitemap:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-sitemap:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-rxjava:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-rxjava-jdbc:jar::compile" -> "org.jooby:jooby-jdbc:jar::compile"
+  "org.jooby:jooby-rxjava-jdbc:jar::compile" -> "org.jooby:jooby-rxjava:jar::compile"
+  "org.jooby:jooby-rxjava-jdbc:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-banner:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-banner:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-reactor:jar::compile" -> "org.jooby:jooby-executor:jar::compile"
+  "org.jooby:jooby-reactor:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-whoops:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-whoops:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-whoops:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-whoops:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-gradle-plugin:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-gradle-plugin:jar::compile" -> "org.jooby:jooby-spec:jar::compile"
+  "org.jooby:jooby-gradle-plugin:jar::compile" -> "org.jooby:jooby-run:jar::compile"
+  "org.jooby:jooby-gradle-plugin:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-couchbase:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-couchbase:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-couchbase:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-couchbase:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-couchbase:jar::compile" -> "org.jooby:jooby-rxjava:jar::test"
+  "org.jooby:jooby-rxjava:jar::test" -> "org.jooby:jooby-executor:jar::test"
+  "org.jooby:jooby-cassandra:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-cassandra:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-cassandra:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-cassandra:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-scanner:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-scanner:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-scanner:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-scanner:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-csl:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-csl:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-csl:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-csl:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-unbescape:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-unbescape:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-unbescape:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-unbescape:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-crash:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-crash:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-crash:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-crash:jar::compile" -> "org.jooby:jooby-jackson:jar::test"
+  "org.jooby:jooby-crash:jar::compile" -> "org.jooby:jooby-banner:jar::test"
+  "org.jooby:jooby-thymeleaf:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:jooby-thymeleaf:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-thymeleaf:jar::compile" -> "org.jooby:jooby-netty:jar::test"
+  "org.jooby:jooby-assets:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-j2v8:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-j2v8:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-nodejs:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-nodejs:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-jshint:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-jshint:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-jscs:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-jscs:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-less:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-less:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-less4j:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-less4j:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-csslint:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-csslint:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-ng-annotate:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-ng-annotate:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-uglify:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-uglify:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-clean-css:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-clean-css:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-yui-compressor:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-yui-compressor:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-closure-compiler:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-closure-compiler:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-sass:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-sass:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-requirejs:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-requirejs:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-babel:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-babel:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-rollup:jar::compile" -> "org.jooby:jooby-assets-j2v8:jar::compile"
+  "org.jooby:jooby-assets-rollup:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-svg-sprites:jar::compile" -> "org.jooby:jooby-assets-nodejs:jar::compile"
+  "org.jooby:jooby-assets-svg-sprites:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-svg-symbol:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:jooby-assets-svg-symbol:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:jooby-assets-autoprefixer:jar::compile" -> "org.jooby:jooby-assets-nodejs:jar::compile"
+  "org.jooby:jooby-assets-autoprefixer:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-executor:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-hbm:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-hbv:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-sitemap:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jedis:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-morphia:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-elasticsearch:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-ehcache:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-spymemcached:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-commons-email:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-caffeine:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-guava-cache:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-flyway:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-hazelcast:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jooq:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-querydsl:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-rxjava:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-rxjava-jdbc:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-whoops:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-couchbase:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-cassandra:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-scanner:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-csl:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-unbescape:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-hbs:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-quartz:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jackson:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-gson:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jdbi:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-ftl:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-pebble:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jade:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-camel:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-pac4j:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-assets:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-swagger:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-raml:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-aws:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-metrics:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-ebean:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-banner:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-reactor:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-mongodb-rx:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-thymeleaf:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-undertow:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-jetty:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby-netty:jar::compile"
+  "org.jooby:coverage-report:jar::compile" -> "org.jooby:jooby:jar:tests:test"
+}
